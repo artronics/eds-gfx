@@ -1,6 +1,17 @@
 {
   "name": "eds-gfx",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "prepublish": "yarn build",
+    "build": "tsc"
+  },
+  "keywords": ["graphics", "EDS", "canvas"],
+  "author": "Jalal Hosseini - artronics",
+  "repository": "https://github.com/artronics/eds-gfx",
+  "dependencies": {
+    "typescript": "^4.0.3"
+  }
 }
