@@ -1,17 +1,30 @@
 {
-  "name": "eds-gfx",
+  "name": "@artronics/eds-gfx",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "MIT",
   "scripts": {
-    "prepublish": "yarn build",
+    "prepare": "yarn build",
     "build": "tsc"
   },
-  "keywords": ["graphics", "EDS", "canvas"],
+  "keywords": [
+    "graphics",
+    "EDS",
+    "canvas"
+  ],
   "author": "Jalal Hosseini - artronics",
-  "repository": "https://github.com/artronics/eds-gfx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artronics/eds-gfx.git"
+  },
   "dependencies": {
     "typescript": "^4.0.3"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/artronics/eds-gfx/issues"
+  },
+  "homepage": "https://github.com/artronics/eds-gfx#readme",
+  "devDependencies": {},
+  "description": ""
 }
